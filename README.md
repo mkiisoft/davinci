@@ -16,7 +16,7 @@
 
 # Creado por Mariano Zorrilla
 
-Mas projectos en: [Github Mariano Zorrila](https://github.com/mkiisoft)
+Mas projectos en [Github](https://github.com/mkiisoft)
 
 # Licencia
 
