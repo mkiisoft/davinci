@@ -11,6 +11,10 @@
 * Unidad 5: Mapas y posicionamiento
 * Unidad 6: Servicios en Android y WebService/API
 
+# Creado por Mariano Zorrilla
+
+Mas projectos en: [Github Mariano Zorrila](https://github.com/mkiisoft)
+
 # Licencia
 
 ```
@@ -18,7 +22,7 @@
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
- Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Copyright (C) 2007 Free Software Foundation, Inc. https://fsf.org
  Everyone is permitted to copy and distribute verbatim copies
  of this license document, but changing it is not allowed.
 ```
