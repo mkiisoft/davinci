@@ -11,6 +11,9 @@
 * Unidad 5: Mapas y posicionamiento
 * Unidad 6: Servicios en Android y WebService/API
 
+# Descargar APK
+[![Android 5.0+ APK](https://i.imgur.com/sBm241c.png)](https://github.com/mkiisoft/JokeGenerator/raw/master/paidFlavor/release/app-paidFlavor-release.apk "Da Vinci Android APK")
+
 # Creado por Mariano Zorrilla
 
 Mas projectos en: [Github Mariano Zorrila](https://github.com/mkiisoft)
