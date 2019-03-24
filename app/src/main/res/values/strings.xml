@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DaVinci</string>
+    <string name="no_links">No hay material disponible.</string>
+    <string name="description">Descripción:</string>
+    <string name="material">Material:</string>
+    <string name="banner">Imagen Banner</string>
+    <string name="da_vinci">Da Vinci</string>
+    <string name="new_content">Hay nuevo contenido disponible</string>
+</resources>
