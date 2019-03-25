@@ -122,7 +122,8 @@ public class MainActivity extends AppCompatActivity implements Constants {
         loading.setVisibility(View.VISIBLE);
         subscribers.add(Generator.initClient().getClasses()
                 .flatMapIterable(classes -> {
-                    dao.deleteAll();
+                    dao.deleteLinks();
+                    dao.deleteClasses();
                     Generator.saveClasses(this, new Gson().toJson(classes));
                     return classes;
                 })

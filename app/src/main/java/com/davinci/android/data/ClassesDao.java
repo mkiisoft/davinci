@@ -31,7 +31,10 @@ public abstract class ClassesDao {
     }
 
     @Query("DELETE FROM classes")
-    public abstract void deleteAll();
+    public abstract void deleteClasses();
+
+    @Query("DELETE FROM links")
+    public abstract void deleteLinks();
 
     @Query("SELECT * FROM classes")
     public abstract Observable<List<Element>> getAll();
