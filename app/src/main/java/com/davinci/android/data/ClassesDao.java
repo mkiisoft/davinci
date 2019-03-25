@@ -30,6 +30,9 @@ public abstract class ClassesDao {
         }).toObservable();
     }
 
+    @Query("DELETE FROM classes")
+    public abstract void deleteAll();
+
     @Query("SELECT * FROM classes")
     public abstract Observable<List<Element>> getAll();
 

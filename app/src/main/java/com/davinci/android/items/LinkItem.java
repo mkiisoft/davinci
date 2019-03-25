@@ -14,6 +14,7 @@ import com.xwray.groupie.Item;
 import com.xwray.groupie.ViewHolder;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 
 public class LinkItem extends Item<ViewHolder> {
 
@@ -38,9 +39,13 @@ public class LinkItem extends Item<ViewHolder> {
         if (Generator.darkMode(viewHolder.itemView.getContext())) {
             web.setColorFilter(Color.WHITE);
             textLink.setTextColor(Color.WHITE);
+            viewHolder.itemView.findViewById(R.id.root_link)
+                    .setBackground(ContextCompat.getDrawable(activity, R.drawable.select_item));
         } else {
             web.setColorFilter(Color.BLACK);
             textLink.setTextColor(Color.BLACK);
+            viewHolder.itemView.findViewById(R.id.root_link)
+                    .setBackground(ContextCompat.getDrawable(activity, R.drawable.select_item_dark));
         }
     }
 

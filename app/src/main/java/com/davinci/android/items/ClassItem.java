@@ -20,6 +20,7 @@ import java.util.Locale;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
+import androidx.core.content.ContextCompat;
 
 public class ClassItem extends Item<ViewHolder> {
 
@@ -66,10 +67,14 @@ public class ClassItem extends Item<ViewHolder> {
             title.setTextColor(Color.WHITE);
             classes.setTextColor(Color.WHITE);
             holder.setCardBackgroundColor(Color.parseColor(Constants.DARK));
+            viewHolder.itemView.findViewById(R.id.item_selector)
+                    .setBackground(ContextCompat.getDrawable(activity, R.drawable.select_item));
         } else {
             title.setTextColor(Color.BLACK);
             classes.setTextColor(Color.BLACK);
             holder.setCardBackgroundColor(Color.WHITE);
+            viewHolder.itemView.findViewById(R.id.item_selector)
+                    .setBackground(ContextCompat.getDrawable(activity, R.drawable.select_item_dark));
         }
 
         viewHolder.itemView.setOnClickListener(v ->
