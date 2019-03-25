@@ -3,6 +3,7 @@ package com.davinci.android.items;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -35,11 +36,18 @@ public class ClassItem extends Item<ViewHolder> {
         CardView holder = viewHolder.itemView.findViewById(R.id.card_holder);
 
         TextView title = viewHolder.itemView.findViewById(R.id.unity_title);
-        title.setText(String.format(new Locale("es", "ES"),
+        title.setText(item.isExam()
+                ? String.format(new Locale("es", "ES"),
+                "%1$s", item.getTitle())
+                : String.format(new Locale("es", "ES"),
                 "Unidad: %1$d - %2$s", item.getUnity(), item.getTitle()));
 
         TextView classes = viewHolder.itemView.findViewById(R.id.class_classes);
         classes.setText(String.format("Clases: %1$s", item.getRounds()));
+
+        viewHolder.itemView.findViewById(R.id.exam_label).setVisibility(item.isExam()
+                ? View.VISIBLE
+                : View.GONE);
 
         ImageView image = viewHolder.itemView.findViewById(R.id.unity_image);
 
@@ -66,7 +74,7 @@ public class ClassItem extends Item<ViewHolder> {
 
         viewHolder.itemView.setOnClickListener(v ->
                 activity.startActivity(new Intent(activity, DetailActivity.class)
-                .putExtra(Constants.BUNDLE, item.getId())));
+                        .putExtra(Constants.BUNDLE, item.getId())));
     }
 
     @Override

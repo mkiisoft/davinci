@@ -45,7 +45,10 @@ public class DetailActivity extends AppCompatActivity implements Constants {
 
         getElement(AppDatabase.getDatabase(this), item -> {
 
-            title.setText(String.format(new Locale("es", "ES"),
+            title.setText(item.getItem().isExam()
+                    ? String.format(new Locale("es", "ES"),
+                    "%1$s", item.getItem().getTitle())
+                    : String.format(new Locale("es", "ES"),
                     "Unidad: %1$d - %2$s", item.getItem().getUnity(), item.getItem().getTitle()));
             description.setText(item.getItem().getDescription());
 

@@ -62,6 +62,22 @@
                 tools:text="Clases: 2" />
         </LinearLayout>
 
+        <TextView
+            android:id="@+id/exam_label"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="-28dp"
+            android:background="#A32BFF"
+            android:fontFamily="@font/bariol"
+            android:gravity="center"
+            android:rotation="45"
+            android:text="@string/exam"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
