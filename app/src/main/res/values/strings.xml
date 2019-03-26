@@ -1,10 +1,30 @@
-<resources>
-    <string name="app_name">DaVinci</string>
-    <string name="no_links">No hay material disponible.</string>
-    <string name="description">Descripción:</string>
-    <string name="material">Material:</string>
-    <string name="banner">Imagen Banner</string>
-    <string name="da_vinci">Da Vinci</string>
-    <string name="new_content">Hay nuevo contenido disponible</string>
-    <string name="exam">EXAMEN</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- App Name -->
+    <string name="app_name">Da Vinci</string>
+
+    <!-- Content -->
+    <string name="exam" tools:ignore="ExtraTranslation">EXAMEN</string>
+    <string name="description" tools:ignore="ExtraTranslation">Descripción:</string>
+    <string name="material" tools:ignore="ExtraTranslation">Material:</string>
+    <string name="banner" tools:ignore="ExtraTranslation">Imagen Banner</string>
+    <string name="no_links" tools:ignore="ExtraTranslation">No hay material disponible.</string>
+
+    <!-- Notification -->
+    <string name="da_vinci" tools:ignore="ExtraTranslation">@string/app_name</string>
+    <string name="new_content" tools:ignore="ExtraTranslation">Hay nuevo contenido disponible</string>
+
+    <!-- Share Links -->
+    <string name="share_link" tools:ignore="ExtraTranslation">Compartir Link</string>
+
+    <!-- Error Network -->
+    <string name="error_data" tools:ignore="ExtraTranslation">Error al obtener datos</string>
+
+    <!-- Intro -->
+    <string name="welcome_text" tools:ignore="ExtraTranslation">Bienvenid@</string>
+    <string name="select_turn" tools:ignore="ExtraTranslation">Elige el turno de tu cursada</string>
+
+    <string name="turn_morning" tools:ignore="ExtraTranslation">Turno Mañana</string>
+    <string name="turn_night" tools:ignore="ExtraTranslation">Turno Noche</string>
+
 </resources>

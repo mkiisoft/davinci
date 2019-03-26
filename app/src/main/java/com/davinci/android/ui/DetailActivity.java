@@ -12,7 +12,6 @@ import com.davinci.android.items.EmptyItem;
 import com.davinci.android.items.LinkItem;
 import com.davinci.android.model.Element;
 import com.davinci.android.model.Links;
-import com.davinci.android.util.Constants;
 import com.davinci.android.R;
 import com.xwray.groupie.GroupAdapter;
 
@@ -27,7 +26,11 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
-public class DetailActivity extends AppCompatActivity implements Constants {
+import static com.davinci.android.util.Constants.BUNDLE;
+import static com.davinci.android.util.Constants.DARK_BG;
+import static com.davinci.android.util.Constants.IMG_DETAIL;
+
+public class DetailActivity extends AppCompatActivity {
 
     private Disposable subscriber;
 

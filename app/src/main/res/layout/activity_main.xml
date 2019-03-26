@@ -5,11 +5,11 @@
     android:id="@+id/root_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#353535"
     android:fitsSystemWindows="false"
     tools:context=".ui.MainActivity">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
         android:layout_width="600dp"
         android:layout_height="600dp"
         android:layout_centerHorizontal="true"
@@ -30,6 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/intro_circle"
+            android:contentDescription="@string/da_vinci"
             android:scaleType="fitXY" />
     </androidx.cardview.widget.CardView>
 
@@ -38,6 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginTop="15dp"
+        android:contentDescription="@string/da_vinci"
         android:elevation="20dp"
         android:padding="25dp"
         android:src="@drawable/davinci"
@@ -46,15 +48,47 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/data_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/davinci_logo">
+
+        <ImageView
+            android:id="@+id/data_image"
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:alpha="0.7"
+            android:contentDescription="@string/error_data"
+            android:src="@drawable/data_error" />
+
+        <TextView
+            android:id="@+id/data_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.7"
+            android:fontFamily="@font/bariol"
+            android:text="@string/error_data"
+            android:textColor="@android:color/black"
+            android:textSize="25sp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/refresh"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_below="@id/davinci_logo"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_class"
@@ -63,6 +97,7 @@
             android:clipToPadding="false"
             android:layoutAnimation="@anim/item_animator"
             android:paddingTop="170dp"
+            android:paddingBottom="10dp"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
@@ -72,11 +107,21 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/davinci_logo"
         android:layout_centerInParent="true"
-        android:indeterminateTint="#A32BFF"
+        android:indeterminateTint="@color/purple"
         android:progressTintMode="multiply"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/davinci_logo" />
+
+    <com.davinci.android.util.Welcome
+        android:id="@+id/welcome_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

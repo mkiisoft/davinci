@@ -36,6 +36,14 @@ public class LinkItem extends Item<ViewHolder> {
         viewHolder.itemView.setOnClickListener(v ->
                 activity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(link.getLink()))));
 
+        viewHolder.itemView.setOnLongClickListener(v -> {
+                    activity.startActivity(new Intent(Intent.ACTION_SEND)
+                            .setType("text/plain")
+                            .putExtra(Intent.EXTRA_SUBJECT, R.string.share_link)
+                            .putExtra(Intent.EXTRA_TEXT, link.getLink()));
+                    return true;
+                });
+
         if (Generator.darkMode(viewHolder.itemView.getContext())) {
             web.setColorFilter(Color.WHITE);
             textLink.setTextColor(Color.WHITE);

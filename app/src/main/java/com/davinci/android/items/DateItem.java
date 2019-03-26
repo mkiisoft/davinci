@@ -47,7 +47,7 @@ public class DateItem extends Item<ViewHolder> {
     }
 
     private static String getDate(long milliSeconds) {
-        SimpleDateFormat formatter = new SimpleDateFormat("dd MMMM yyyy - HH:mm",
+        SimpleDateFormat formatter = new SimpleDateFormat("EEEE dd MMMM yyyy - HH:mm",
                 new Locale("es", "ES"));
         return formatter.format(milliSeconds);
     }

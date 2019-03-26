@@ -8,7 +8,6 @@ import android.content.Intent;
 
 import com.davinci.android.R;
 import com.davinci.android.ui.MainActivity;
-import com.davinci.android.util.Constants;
 import com.google.gson.Gson;
 
 import androidx.annotation.NonNull;
@@ -16,7 +15,14 @@ import androidx.core.app.NotificationCompat;
 import androidx.work.Worker;
 import androidx.work.WorkerParameters;
 
-public class ApiWorker extends Worker implements Constants {
+import static com.davinci.android.util.Constants.API_WORK;
+import static com.davinci.android.util.Constants.API_WORK_NOTIF;
+import static com.davinci.android.util.Constants.API_WORK_NOTIF_ID;
+import static com.davinci.android.util.Constants.MORNING_PATH;
+import static com.davinci.android.util.Constants.NIGHT;
+import static com.davinci.android.util.Constants.NIGHT_PATH;
+
+public class ApiWorker extends Worker {
 
     private Gson gson;
     private Context context;
@@ -31,7 +37,9 @@ public class ApiWorker extends Worker implements Constants {
     @NonNull
     @Override
     public Result doWork() {
-        Generator.initClient().getClasses()
+        Generator.initClient().getClasses((Generator.getTurn(context) == NIGHT)
+                ? NIGHT_PATH
+                : MORNING_PATH)
                 .subscribe(classes -> {
                     String api = gson.toJson(classes);
                     if (!api.contentEquals(Generator.getSavedClasses(context))) {

@@ -2,7 +2,16 @@ package com.davinci.android.util;
 
 public interface Constants {
 
+    void click(int turn);
+
+    int NIGHT = 2300;
+    int MORNING = 1100;
+
+    String NIGHT_PATH = "4JW5tHAP8";
+    String MORNING_PATH = "41PJ_HzdL";
+
     String MODE = "mode";
+    String TURN = "turn";
     String CLASSES = "classes";
 
     String DARK = "#262626";

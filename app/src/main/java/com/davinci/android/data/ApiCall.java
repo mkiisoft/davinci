@@ -6,9 +6,10 @@ import java.util.List;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;
+import retrofit2.http.Path;
 
 public interface ApiCall {
 
-    @GET("json/get/4JW5tHAP8")
-    Observable<List<Classes>> getClasses();
+    @GET("json/get/{endpoint}")
+    Observable<List<Classes>> getClasses(@Path("endpoint") String endpoint);
 }
