@@ -12,7 +12,7 @@
 * Unidad 6: Servicios en Android y WebService/API
 
 # Descargar APK
-[![Android 5.0+ APK](https://i.imgur.com/sBm241c.png)](https://github.com/mkiisoft/davinci/raw/master/app/release/app-release.apk "Da Vinci Android APK")
+[![Android 5.0+ APK](https://i.imgur.com/sBm241c.png)](http://bit.ly/AndroidDaVinci "Da Vinci Android APK")
 
 # Creado por Mariano Zorrilla
 
