@@ -11,6 +11,12 @@
 * Unidad 5: Mapas y posicionamiento
 * Unidad 6: Servicios en Android y WebService/API
 
+# Parciales
+
+* Primer Parcial:
+- Turno Mañana 13/05
+- Turno Noche 14/05
+
 # Descargar APK
 [![Android 5.0+ APK](https://i.imgur.com/sBm241c.png)](http://bit.ly/AndroidDaVinci "Da Vinci Android APK")
 
