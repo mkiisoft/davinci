@@ -15,7 +15,10 @@
 
 Primer Parcial:
 - Turno Mañana 13/05
-- Turno Noche 14/05
+- Turno Noche 21/05
+
+Ejemplo Parcial:
+- [CardView, ScrollView, RecyclerView, Intent](http://bit.ly/davinciejemploparcial)
 
 # Links Utiles
 
