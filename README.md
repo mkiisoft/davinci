@@ -24,6 +24,8 @@ Ejemplo Parcial:
 
 - [Tutorial RecyclerView](https://code.tutsplus.com/es/tutorials/getting-started-with-recyclerview-and-cardview-on-android--cms-23465)
 - [Material Design](https://developer.android.com/design/material?hl=es-419)
+- [Activities](https://developer.android.com/guide/components/activities.html?hl=es-419)
+- [Administración del ciclo de vida de la actividad](https://developer.android.com/training/basics/activity-lifecycle/index.html?hl=es-419)
 
 # Descargar APK
 [![Android 5.0+ APK](https://i.imgur.com/sBm241c.png)](http://bit.ly/AndroidDaVinci "Da Vinci Android APK")
