@@ -18,7 +18,7 @@ Primer Parcial:
 - Turno Noche 21/05
 
 Ejemplo Parcial:
-- [CardView, ScrollView, RecyclerView, Intent](http://bit.ly/davinciejemploparcial)
+- [CardView, ScrollView, RecyclerView, Intent v1.5](http://bit.ly/davinciejemploparcial)
 
 # Links Utiles
 
