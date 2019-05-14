@@ -17,6 +17,9 @@ Primer Parcial:
 - Turno Mañana 13/05
 - Turno Noche 21/05
 
+Recuperatorio:
+- 1ra semana de Julio
+
 Ejemplo Parcial:
 - [CardView, ScrollView, RecyclerView, Intent v1.5](http://bit.ly/davinciejemploparcial)
 
