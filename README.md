@@ -20,6 +20,9 @@ Primer Parcial:
 Recuperatorio:
 - 1ra semana de Julio
 
+Base de Datos e Hilos:
+- [Room, RxJava y Java 8](http://bit.ly/RoomYRxJavaDavinci)
+
 Ejemplo Parcial:
 - [CardView, ScrollView, RecyclerView, Intent v1.5](http://bit.ly/davinciejemploparcial)
 
