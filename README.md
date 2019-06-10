@@ -23,6 +23,9 @@ Recuperatorio:
 Base de Datos e Hilos:
 - [Room, RxJava y Java 8](http://bit.ly/RoomYRxJavaDavinci)
 
+Api Acceso Online de Datos:
+- [Retrofit, Room, RxJava](http://bit.ly/ApiOnlineDavinci)
+
 Ejemplo Parcial:
 - [CardView, ScrollView, RecyclerView, Intent v1.5](http://bit.ly/davinciejemploparcial)
 
