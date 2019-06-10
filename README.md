@@ -23,7 +23,7 @@ Recuperatorio:
 Base de Datos e Hilos:
 - [Room, RxJava y Java 8](http://bit.ly/RoomYRxJavaDavinci)
 
-Api Acceso Online de Datos:
+WebService/API:
 - [Retrofit, Room, RxJava](http://bit.ly/ApiOnlineDavinci)
 
 Ejemplo Parcial:
