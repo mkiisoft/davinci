@@ -13,9 +13,9 @@
 
 # Parciales
 
-Primer Parcial:
-- Turno Mañana 13/05
-- Turno Noche 21/05
+Segundo Parcial:
+- Turno Mañana 24/06
+- Turno Noche 25/06
 
 Recuperatorio:
 - 1ra semana de Julio
