@@ -29,6 +29,9 @@ WebService/API:
 Ejemplo Parcial:
 - [CardView, ScrollView, RecyclerView, Intent v1.5](http://bit.ly/davinciejemploparcial)
 
+Ejemplo Segundo Parcial:
+- [API, Base de Datos, Hilos](http://bit.ly/SegundoParcialDaVinci)
+
 # Links Utiles
 
 - [Tutorial RecyclerView](https://code.tutsplus.com/es/tutorials/getting-started-with-recyclerview-and-cardview-on-android--cms-23465)
