@@ -59,3 +59,4 @@ Mas proyectos en [Github](https://github.com/mkiisoft)
 ```
 
 [Error](https://drive.google.com/file/d/1jTzhtemUQlBPme-BH5Ct4M0XwSuD9g0b/view?usp=sharing)
+[Error 2](https://drive.google.com/file/d/1JPAhOm8-3M5PDWETMS6p40uEPGPcGoFW/view?usp=sharing)
