@@ -32,6 +32,9 @@ Ejemplo Parcial:
 Ejemplo Segundo Parcial:
 - [API, Base de Datos, Hilos](http://bit.ly/SegundoParcialDaVinci)
 
+# IMPORTANTE TURNO NOCHE
+[Turno Noche](http://bit.ly/finalDavinci)
+
 # Links Utiles
 
 - [Tutorial RecyclerView](https://code.tutsplus.com/es/tutorials/getting-started-with-recyclerview-and-cardview-on-android--cms-23465)
@@ -57,6 +60,3 @@ Mas proyectos en [Github](https://github.com/mkiisoft)
  Everyone is permitted to copy and distribute verbatim copies
  of this license document, but changing it is not allowed.
 ```
-
-[Error](https://drive.google.com/file/d/1jTzhtemUQlBPme-BH5Ct4M0XwSuD9g0b/view?usp=sharing)
-[Error 2](https://drive.google.com/file/d/1JPAhOm8-3M5PDWETMS6p40uEPGPcGoFW/view?usp=sharing)
